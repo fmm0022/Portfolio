@@ -12,7 +12,8 @@ export class PortfolioComponent implements OnInit {
     {
       title: 'Aplicación Web',
       description: 'Aplicación de una rutina de gimnasio',
-      link: 'https://github.com/MedacDWES/proyecto-apis-rest-grupo_5',  // Ruta interna de la aplicación
+      image: 'https://drive.google.com/uc?export=view&id=1SZY-dq7STH4RomaAUm7UplpfiX0y6PJp',
+      link: 'https://github.com/MedacDWES/proyecto-apis-rest-grupo_5'  // Imagen desde Google Drive
     },
     {
       title: 'DragonSlayer',
