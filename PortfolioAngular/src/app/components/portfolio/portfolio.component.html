@@ -1,0 +1,53 @@
+<div class="container">
+  <h2>Mis Proyectos</h2>
+  <!-- Contenedor de las tarjetas con filas y columnas -->
+  <div class="row">
+    <!-- Iterar sobre los proyectos -->
+    <div class="col-md-4" *ngFor="let project of projects">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ project.title }}</h5>
+          <p class="card-text">{{ project.description }}</p>
+
+          <!-- Mostrar el modelo de DragonSlayer -->
+          <div *ngIf="project.title === 'DragonSlayer'">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe title="Mata Dragones" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/df7dee4c4e6a4f07b9e513b19631aec6/embed"></iframe>
+            </div>
+            <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+              <a href="https://sketchfab.com/3d-models/mata-dragones-df7dee4c4e6a4f07b9e513b19631aec6?utm_medium=embed&utm_campaign=share-popup&utm_content=df7dee4c4e6a4f07b9e513b19631aec6" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">
+                Mata Dragones
+              </a> by
+              <a href="https://sketchfab.com/fernando014?utm_medium=embed&utm_campaign=share-popup&utm_content=df7dee4c4e6a4f07b9e513b19631aec6" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">
+                fernando014
+              </a> on
+              <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=df7dee4c4e6a4f07b9e513b19631aec6" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">
+                Sketchfab
+              </a>
+            </p>
+          </div>
+
+          <!-- Mostrar el modelo de Hollow Knight -->
+          <div *ngIf="project.title === 'Hollow Knight'">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe title="Hollow Knight Fernando Moreno" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/175e91cd9f584f108fb79c85dccf2d25/embed"> </iframe>
+            </div>
+            <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+              <a href="https://sketchfab.com/3d-models/hollow-knight-fernando-moreno-175e91cd9f584f108fb79c85dccf2d25?utm_medium=embed&utm_campaign=share-popup&utm_content=175e91cd9f584f108fb79c85dccf2d25" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">
+                Hollow Knight Fernando Moreno
+              </a> by
+              <a href="https://sketchfab.com/fernando014?utm_medium=embed&utm_campaign=share-popup&utm_content=175e91cd9f584f108fb79c85dccf2d25" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">
+                fernando014
+              </a> on
+              <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=175e91cd9f584f108fb79c85dccf2d25" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">
+                Sketchfab
+              </a>
+            </p>
+          </div>
+
+          <button class="btn btn-primary">Ver más</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

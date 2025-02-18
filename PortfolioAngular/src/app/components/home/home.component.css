@@ -1,0 +1,9 @@
+/* Para garantizar que la imagen sea completamente redonda */
+img.rounded-circle {
+  object-fit: cover; /* Asegura que la imagen se recorte si es necesario para que sea un círculo perfecto */
+  border-radius: 50%; /* Esto asegura que la imagen sea redonda */
+}
+/* home.component.scss o styles.css */
+.img-fluid {
+  margin-top: -20px; /* Ajusta el valor según lo que necesites */
+}
