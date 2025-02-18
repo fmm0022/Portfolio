@@ -1,6 +1,5 @@
 <div class="container">
   <h2>Mis Proyectos</h2>
-  <!-- Contenedor de las tarjetas con filas y columnas -->
   <div class="row">
     <!-- Iterar sobre los proyectos -->
     <div class="col-md-4" *ngFor="let project of projects">
@@ -9,7 +8,7 @@
           <h5 class="card-title">{{ project.title }}</h5>
           <p class="card-text">{{ project.description }}</p>
 
-          <!-- Mostrar el modelo de DragonSlayer -->
+          <!-- Agregar iframe solo para el proyecto DragonSlayer -->
           <div *ngIf="project.title === 'DragonSlayer'">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe title="Mata Dragones" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/df7dee4c4e6a4f07b9e513b19631aec6/embed"></iframe>
@@ -27,10 +26,10 @@
             </p>
           </div>
 
-          <!-- Mostrar el modelo de Hollow Knight -->
+          <!-- Agregar iframe solo para el proyecto Hollow Knight -->
           <div *ngIf="project.title === 'Hollow Knight'">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe title="Hollow Knight Fernando Moreno" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/175e91cd9f584f108fb79c85dccf2d25/embed"> </iframe>
+              <iframe title="Hollow Knight Fernando Moreno" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/175e91cd9f584f108fb79c85dccf2d25/embed"></iframe>
             </div>
             <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
               <a href="https://sketchfab.com/3d-models/hollow-knight-fernando-moreno-175e91cd9f584f108fb79c85dccf2d25?utm_medium=embed&utm_campaign=share-popup&utm_content=175e91cd9f584f108fb79c85dccf2d25" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">
@@ -45,8 +44,8 @@
             </p>
           </div>
 
-          <!-- Botón con enlace (puedes poner el enlace que desees) -->
-          <button class="btn btn-primary" [routerLink]="project.link">Ver más</button>
+          <!-- Agregar botón con el enlace -->
+          <a [href]="project.link" target="_blank" class="btn btn-primary">Ver más</a>
         </div>
       </div>
     </div>
