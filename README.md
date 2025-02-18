@@ -49,4 +49,8 @@ Para ejecutar el proyecto localmente:
 ng serve
    ```
 
+  ## Luego abre tu navegador y ve a http://localhost:4200 para ver el portfolio en acción.
+
+
+
 
