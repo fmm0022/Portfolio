@@ -1,6 +1,6 @@
 # 🌟 Portfolio
 
-Bienvenido a mi portfolio personal. Este proyecto está desarrollado con **Angular** y tiene como objetivo mostrar mis habilidades, proyectos y una forma de contactar conmigo.
+Bienvenido a mi portfolio personal. Este proyecto está desarrollado con **Angular** y tiene como objetivo mostrar mis habilidades, proyectos y una forma de contactar conmigo. He utilizado **componentes reutilizables** como un **navbar** y **cards** para mantener una estructura modular y optimizada.
 
 ## 📝 Tabla de Contenidos
 - [💻 Tecnologías Usadas](#tecnologías-usadas)
@@ -21,6 +21,7 @@ Bienvenido a mi portfolio personal. Este proyecto está desarrollado con **Angul
 - 🏠 **Página de Inicio**: Una bienvenida atractiva con información sobre mí.
 - 📞 **Página de Contacto**: Formulario para que los visitantes puedan contactarme.
 - 💼 **Página de Proyectos**: Enlaces a proyectos interactivos, con integración de Sketchfab.
+- 🔄 **Componentes Reutilizables**: Uso de un **navbar** y **cards** que se reutilizan a través de las páginas para una estructura modular y eficiente.
 
 ## 🔧 Instalación
 
