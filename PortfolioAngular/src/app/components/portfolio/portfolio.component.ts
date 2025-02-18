@@ -12,17 +12,17 @@ export class PortfolioComponent implements OnInit {
     {
       title: 'Aplicación Web',
       description: 'Aplicación de una rutina de gimnasio',
-      image: '/Sololeveling.jpg'  // Ruta de la imagen para el proyecto 1
+      link: '/web-app',  // Ruta interna de la aplicación
     },
     {
       title: 'DragonSlayer',
       description: 'Espada de Berserk Modelada en 3D',
-        // Ruta de la imagen para el proyecto 2
+      link: 'https://sketchfab.com/models/df7dee4c4e6a4f07b9e513b19631aec6',  // Enlace externo de Sketchfab
     },
     {
       title: 'Hollow Knight',
       description: 'Protagonista de Hollow Knight Modelado en 3D',
-      image: '/assets/project3.jpg'  // Ruta de la imagen para el proyecto 3
+      link: 'https://sketchfab.com/3d-models/hollow-knight-fernando-moreno-175e91cd9f584f108fb79c85dccf2d25',  // Enlace externo de Sketchfab
     }
   ];
 
